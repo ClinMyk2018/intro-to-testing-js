@@ -23,3 +23,40 @@ describe('sayHello', function() {
     });
 
 });
+
+
+//
+// describe("isNumber", function() {
+//     it("should be a defined function", function() {
+//         expect(typeof isNumber).toBe("function");
+//     });
+//     it("should return a boolean value", function() {
+//         expect(typeof isNumber()).toBe("boolean");
+//     });
+//     it("should return true when provided the number 4", function() {
+//         expect(isNumber(4)).toBe(true);
+//     });
+//     it("should return false when provided the boolean of false", function() {
+//         expect(isNumber(false)).toBe(false);
+//     });
+//     it("should return false when provided the string 'banana'", function() {
+//         expect(isNumber("banana")).toBe(false);
+//     });
+//     it("should return true when provided the string value of '2'", function() {
+//         expect(isNumber("2")).toBe(true);
+//     });
+//     it("should return false when provided the boolean of true", function() {
+//         expect(isNumber(true)).toBe(false);
+//     });
+//     it("should return true when passed Infinity", function() {
+//         expect(isNumber(Infinity)).toBe(true);
+//     });
+//     it("should return true when passed the string '-3.141'", function() {
+//         expect(isNumber("-3.141")).toBe(true);
+//     });
+// });
+
+
+
+
+
