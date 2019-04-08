@@ -21,8 +21,27 @@ describe('sayHello', function() {
     it('should return a string when called', function () {
         expect(typeof sayHello("Hello")).toBe("string")
     });
+    it('should return a boolean when called', function () {
+        expect(typeof sayHello(false)).toBe("Hello, World!")
+    });
 
 });
+
+describe('isFive', function() {
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe('function');
+    });
+});
+
+    describe('isEven', function () {
+        it('should be a defined function', function () {
+            expect(typeof isEven).toBe('function')
+        });
+    });
+
+
+
+
 
 
 //
